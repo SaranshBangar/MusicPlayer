@@ -1,0 +1,88 @@
+*
+{
+     box-sizing: border-box;
+}
+
+body 
+{
+     margin: 0;
+     padding: 0;
+     font-family: Arial, sans-serif;
+     background-color: #f2f2f2;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+}
+ 
+.container 
+{
+     max-width: 800px;
+     padding: 20px;
+     text-align: center;
+     background-color: #ffffff;
+     border: 2px solid #cccccc;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+ 
+h1 
+{
+     color: #333;
+}
+ 
+.playlist 
+{
+     margin-top: 20px;
+}
+ 
+footer 
+{
+     background-color: #333;
+     color: #fff;
+     padding: 10px;
+     text-align: center;
+     margin-top: auto;
+     width: 100%;
+}
+
+button 
+{
+     padding: 10px 20px;
+     font-size: 16px;
+     background-color: #4CAF50;
+     color: #fff;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+}
+ 
+button:hover 
+{
+     background-color: #45a049;
+}
+ 
+
+select 
+{
+     padding: 8px;
+     font-size: 16px;
+     border: 2px solid #4CAF50;
+     border-radius: 4px;
+     outline: none;
+     background-color: #f2f2f2;
+     color: #333;
+     cursor: pointer;
+}
+ 
+select::-ms-expand 
+{
+     display: none;
+}
+ 
+select::after 
+{
+     content: "\25BC";
+     margin-left: 5px;
+} 
